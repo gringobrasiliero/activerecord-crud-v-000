@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20180110163803) do
     t.text     "director"
     t.text     "lead"
     t.boolean  "in_theaters"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
